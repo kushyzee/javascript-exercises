@@ -1,0 +1,6 @@
+input = hello there
+expected output = ereht olleh
+
+SPLIT the string into an array
+REVERSE the array
+CONVERT the array back to a string
