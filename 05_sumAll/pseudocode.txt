@@ -1,0 +1,19 @@
+input = 1, 4
+expected output = 1 + 2 + 3 + 4 = 10
+
+CREATE a variable sumTotal equals to 0
+IF firstNum is lesser than secondNum THEN
+  FOR i = firstNum, loop from i to secondNum, INCREMENT i by 1 in each iteration
+    ADD the current iteration to sumTotal
+  ENDFOR
+  RETURN sumTotal
+
+ELSE IF firstNum is greater than secondNum THEN
+  FOR i = secondNum, loop from i to firstNum, DECREMENT i by 1 in each iteration
+    ADD the current iteration to sumTotal
+  ENDFOR
+  RETURN sumTotal
+
+ELSE
+  RETURN 'ERROR'
+ENDIF
