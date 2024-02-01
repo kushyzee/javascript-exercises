@@ -1,0 +1,12 @@
+input = 1984 output = true
+input = 1800 output = false
+input 2000 output = true
+
+IF year % 4 = 0
+  IF year % 100 = 0 AND year % 400 = 0
+    return true
+  ELSE return false
+  ENDIF
+  return true
+ELSE return false
+ENDIF
